@@ -21,8 +21,8 @@
   outputs = inputs @ { self, nixpkgs, hyprland, home-manager, hypr-contrib, hyprpicker }: 
     let
       system = "x86_64-linux";
-      user = "mehran";
-      hostName = "mehran-rog";
+      user = "saba";
+      hostName = "sabaSnd";
     in {
 
       nixosConfigurations.${hostName} = nixpkgs.lib.nixosSystem rec{
